@@ -8,16 +8,19 @@ xmlhttp.onreadystatechange = function () {
                     config
                 }
             },
-            methods: {
-                returnImg(id) {
-                    return "./img/" + id;
+            computed: {
+                styles() {
+                    return {
+                        'background-image': `url(img/${config['welcome-photo']})`,
+                        'background-repeat': 'no-repeat',
+                        'background-size': 'cover',
+                        'background-position': 'center'
+                    }
                 }
             }
         });
-       app.mount('#app');
+        app.mount('#app');
     }
 };
 xmlhttp.open("GET", "data/data.json", true);
 xmlhttp.send();
-
-    
