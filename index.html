@@ -14,7 +14,9 @@
 </head>
 
 <body>
-  <img src="./img/welcome-photo.jpg" id="welcomePhoto" />
+  <div id="app">
+    <img :src="returnImg(config['welcome-photo'])" id="welcomePhoto" />
+  </div>
   <script type="module" src="js/main.js"></script>
 </body>
 
