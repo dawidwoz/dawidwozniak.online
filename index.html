@@ -11,21 +11,22 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0"></script>
   -->
   <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
-  <title>Dawid Woźniak - Junior Front End Developer - Interactive CV</title>
+  <title>This should be replaced by Vue script!</title>
 </head>
 
 <body>
+  <script type="module" src="js/main.js"></script>
   <div id="app">
     <div
     :style="styles"  
     id="welcomePhoto">
       <div id="welcomeText">
-        <p>Hey, I'm</p>
-        <h1 class="name">Dawid Woźniak</h1>
+        <p>{{ language["welcome-first-line"] }}</p>
+        <h1 class="name">{{ language["welcome-name"] }}</h1>
       </div>
     </div>
   </div>
-  <script type="module" src="js/main.js"></script>
+  <script src="./js/components/experienceDisplay.js"></script>
 </body>
 
 </html>

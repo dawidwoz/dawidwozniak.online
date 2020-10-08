@@ -1,26 +1,35 @@
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-        var config = JSON.parse(this.responseText);
-        const app = Vue.createApp({
-            data() {
-                return {
-                    config
-                }
-            },
-            computed: {
-                styles() {
-                    return {
-                        'background-image': `url(img/${config['welcome-photo']})`,
-                        'background-repeat': 'no-repeat',
-                        'background-size': 'cover',
-                        'background-position': 'center'
-                    }
-                }
+const app = Vue.createApp({
+    data() {
+        return {
+            config: undefined,
+            language: undefined
+        }
+    },
+    created: function () {
+        this.config = this.fetchData("config");
+        this.language = this.fetchData("EN_language");
+        document.title = this.language["title"];
+    },
+    computed: {
+        styles() {
+            return {
+                'background-image': `url(img/${this.config['welcome-photo']})`,
+                'background-repeat': 'no-repeat',
+                'background-size': 'cover',
+                'background-position': 'center'
             }
-        });
-        app.mount('#app');
+        }
+    },
+    methods: {
+        fetchData(type) {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "data/" + type + ".json", false);
+            xmlhttp.send();
+            if (!(xmlhttp.response)) {
+                return null;
+            }
+            return JSON.parse(xmlhttp.response);
+        },
     }
-};
-xmlhttp.open("GET", "data/data.json", true);
-xmlhttp.send();
+});
+app.mount('#app');
