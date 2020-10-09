@@ -8,17 +8,7 @@ const app = Vue.createApp({
     created: function () {
         this.config = this.fetchData("config");
         this.language = this.fetchData("EN_language");
-        document.title = this.language["title"];
-    },
-    computed: {
-        styles() {
-            return {
-                'background-image': `url(img/${this.config['welcome-photo']})`,
-                'background-repeat': 'no-repeat',
-                'background-size': 'cover',
-                'background-position': 'center'
-            }
-        }
+        document.title = this.language.title;
     },
     methods: {
         fetchData(type) {
@@ -30,6 +20,14 @@ const app = Vue.createApp({
             }
             return JSON.parse(xmlhttp.response);
         },
+        styles(image) {
+            return {
+                'background-image': `url(img/` + image + `)`,
+                'background-repeat': 'no-repeat',
+                'background-size': 'cover',
+                'background-position': 'center'
+            }
+        }
     }
 });
-app.mount('#app');
+

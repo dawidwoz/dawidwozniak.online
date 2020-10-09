@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap&subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap&subset=latin,latin-ext,cyrillic,cyrillic-ext"
+    rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./style/main.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -15,18 +17,25 @@
 </head>
 
 <body>
-  <script type="module" src="js/main.js"></script>
   <div id="app">
-    <div
-    :style="styles"  
-    id="welcomePhoto">
-      <div id="welcomeText">
+    <div :style="styles(config['welcome-photo'])" class="section welcomePhoto">
+      <div class="welcomeText">
         <p>{{ language["welcome-first-line"] }}</p>
         <h1 class="name">{{ language["welcome-name"] }}</h1>
       </div>
     </div>
+    <div :style="styles(config['welcome-photo'])" class="section welcomePhoto">
+      <div class="welcomeText">
+        <experience-display :language="language"></experience-display>
+      </div>
+    </div>
   </div>
-  <script src="./js/components/experienceDisplay.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/components/experienceDisplay.js"></script>
+  <script type="text/javascript">
+    app.mount('#app');
+  </script>
 </body>
 
 </html>
