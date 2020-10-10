@@ -18,20 +18,16 @@
 
 <body>
   <div id="app">
-    <div :style="styles(config['welcome-photo'])" class="section welcomePhoto">
-      <div class="welcomeText">
-        <p>{{ language["welcome-first-line"] }}</p>
-        <h1 class="name">{{ language["welcome-name"] }}</h1>
-      </div>
+    <div :style="styles(config['welcome-photo'])" class="section">
+      <welcome-display :language="language"></welcome-display>
     </div>
-    <div :style="styles(config['welcome-photo'])" class="section welcomePhoto">
-      <div class="welcomeText">
-        <experience-display :language="language"></experience-display>
-      </div>
+    <div class="section">
+      <experience-display :language="language"></experience-display>
     </div>
   </div>
 
   <script src="js/main.js"></script>
+  <script src="js/components/welcomeDisplay.js"></script>
   <script src="js/components/experienceDisplay.js"></script>
   <script type="text/javascript">
     app.mount('#app');
