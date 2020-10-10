@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Amatic SC', cursive;
-    font-size: 6vw;
 } 
 body {
     min-height: 100vh;
+    font-size: 2vw;
+    font-family: 'Cabin', sans-serif;
 }
 
 #app {
@@ -24,22 +24,15 @@ body {
     background-position: center;
 }
 
-.name {
+.sectionTitle {
     font-size: 10vw;
-}
-
-@media only screen and (max-width: 1000px) {
-    * {
-        font-size: 10vw;
-    } 
-
-    .name {
-        font-size: 16vw;
-    }
+    font-family: 'Amatic SC', cursive;
 }
 
 .welcomeText {
     color: #FFF;
+    font-family: 'Amatic SC', cursive;
+    font-size: 6vw;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -47,3 +40,38 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
 }
+
+.image-text, .large-text {
+    display: block;
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.image-text img {
+    vertical-align: middle;
+    border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+.large-text {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+    .welcomeText {
+        font-size: 10vw;
+    } 
+
+    .sectionTitle {
+        font-size: 16vw;
+    }
+
+    .image-text, .large-text {
+        width: 94%;
+    }
+}
+

@@ -2,5 +2,25 @@
     "title": "Dawid Woźniak - Junior Front End Developer - Interactive CV",
     "welcome-first-line": "Hey, I'm ",
     "welcome-name": "Dawid Woźniak",
-    "experience-title": "My journey"
+    "experience-title": "My experience",
+    "experience": [
+        {
+            "id": 1,
+            "position": "Student Software Developer",
+            "place": "Amadeus, Franfurt am Main, Germany",
+            "time": "Jun 2019 - Aug 2020",
+            "description": "Collaborate in an agile team (Development and Product Definition) and help develop solutions as a member of the Amadeus UI R&D Team. The main activities include:<br />_ Design and build advanced UI for the web platform and open-backend part.<br />_ Collaborate with cross-functional teams to define, design, and ship new features.<br />_ Work with outside data sources and API’s<br />_ Work on bug fixing and improving application performance.<br />_ Continuously discover, evaluate, and implement new technologies to maximize development efficiency.",
+            "stack": "Angular, Java EE, JavaScript, CSS, HTML",
+            "img": "welcome-photo.jpg"
+        },
+        {
+            "id": 2,
+            "position": "Student Software Developer",
+            "place": "Amadeus, Franfurt am Main, Germany",
+            "time": "Jun 2019 - Aug 2020",
+            "description": "Collaborate in an agile team (Development and Product Definition) and help develop solutions as a member of the Amadeus UI R&D Team. The main activities include:<br />_ Design and build advanced UI for the web platform and open-backend part.<br />_ Collaborate with cross-functional teams to define, design, and ship new features.<br />_ Work with outside data sources and API’s<br />_ Work on bug fixing and improving application performance.<br />_ Continuously discover, evaluate, and implement new technologies to maximize development efficiency.",
+            "stack": "Angular, Java EE, JavaScript, CSS, HTML",
+            "img": "welcome-photo.jpg"
+        }
+    ]
 }

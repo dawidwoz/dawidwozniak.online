@@ -4,7 +4,7 @@ app.component('welcome-display', {
         `
         <div class="welcomeText">
           <p>{{ this.language["welcome-first-line"] }}</p>
-          <h1 class="name">{{ this.language["welcome-name"] }}</h1>
+          <h1 class="sectionTitle">{{ this.language["welcome-name"] }}</h1>
         </div>
     `,
     props: ['language']
