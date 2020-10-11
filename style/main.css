@@ -22,12 +22,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden;  /* Avoid overlaping when heigh > 100vw */
+    overflow: hidden;  /* Avoid overlapping when heigh > 100vw */
 }
 
 .sectionTitle {
     font-size: 10vw;
     font-family: 'Amatic SC', cursive;
+}
+
+.subSectionTitle {
+    font-size: 4vw;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 1%;
 }
 
 .welcomeText {
@@ -77,6 +83,21 @@ body {
     background-color: #eee;
 }
 
+.abilityRecord {
+    overflow: hidden;
+}
+
+.skillsView {
+    width: 33%;
+    display: block;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.skillDescription {
+    color: #A9A9A9;
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         font-size: 4vw;
@@ -90,8 +111,18 @@ body {
         font-size: 16vw;
     }
 
+    .subSectionTitle {
+        font-size: 6vw;
+    }
+
     .image-text, .large-text {
         width: 94%;
     }
+
+    .skillsView {
+        width: 98%;
+        margin-bottom: 5%;
+    }
+
 }
 

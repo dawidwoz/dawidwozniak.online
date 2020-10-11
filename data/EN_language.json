@@ -23,5 +23,109 @@
             "img": "aber.jpg"
         }
     ],
-    "ability-title": "My abilities"
+    "ability-title": "My abilities",
+    "ability": [
+        {
+            "id": 1,
+            "sub-title": "Skills",
+            "skills": [
+                {
+                    "id": 1,
+                    "name": "Angular (TypeScript)",
+                    "star": 4,
+                    "description": ""
+                },
+                {
+                    "id": 2,
+                    "name": "JavaScript",
+                    "star": 4,
+                    "description": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Java",
+                    "star": 4,
+                    "description": ""
+                },
+                {
+                    "id": 4,
+                    "name": "PHP",
+                    "star": 3,
+                    "description": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Vue.js",
+                    "star": 3,
+                    "description": ""
+                },
+                {
+                    "id": 7,
+                    "name": "HTML/CSS",
+                    "star": 5,
+                    "description": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Spring/Spring Boot",
+                    "star": 1,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "sub-title": "Tools/Methodology",
+            "skills": [
+                {
+                    "id": 1,
+                    "name": "Agile",
+                    "star": 5,
+                    "description": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Git",
+                    "star": 4,
+                    "description": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Adobe Photoshop",
+                    "star": 3,
+                    "description": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Atlassian / Jira",
+                    "star": 4,
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "sub-title": "Language",
+            "skills": [
+                {
+                    "id": 1,
+                    "name": "Polish",
+                    "star": 0,
+                    "description": "Native speaker"
+                },
+                {
+                    "id": 2,
+                    "name": "English",
+                    "star": 0,
+                    "description": "C1"
+                },
+                {
+                    "id": 3,
+                    "name": "German",
+                    "star": 0,
+                    "description": "B2"
+                }
+            ]
+        }
+    ]
 }
