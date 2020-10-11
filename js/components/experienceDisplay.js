@@ -4,7 +4,6 @@ app.component('experience-display', {
         `
           <h1 class="sectionTitle">{{ this.language["experience-title"] }}</h1>
           <br />
-          <br />
           <div v-for="record in this.language['experience']" key="record.id" class="experienceRecord">
           <div class="image-text">
             <img :src="styles(record.img)" />
