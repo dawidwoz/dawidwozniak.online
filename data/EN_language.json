@@ -11,16 +11,16 @@
             "time": "Jun 2019 - Aug 2020",
             "description": "Collaborate in an agile team (Development and Product Definition) and help develop solutions as a member of the Amadeus UI R&D Team. The main activities include:<br />_ Design and build advanced UI for the web platform and open-backend part.<br />_ Collaborate with cross-functional teams to define, design, and ship new features.<br />_ Work with outside data sources and API’s<br />_ Work on bug fixing and improving application performance.<br />_ Continuously discover, evaluate, and implement new technologies to maximize development efficiency.",
             "stack": "Angular, Java EE, JavaScript, CSS, HTML",
-            "img": "welcome-photo.jpg"
+            "img": "amadeus.jpg"
         },
         {
             "id": 2,
-            "position": "Student Software Developer",
-            "place": "Amadeus, Franfurt am Main, Germany",
-            "time": "Jun 2019 - Aug 2020",
-            "description": "Collaborate in an agile team (Development and Product Definition) and help develop solutions as a member of the Amadeus UI R&D Team. The main activities include:<br />_ Design and build advanced UI for the web platform and open-backend part.<br />_ Collaborate with cross-functional teams to define, design, and ship new features.<br />_ Work with outside data sources and API’s<br />_ Work on bug fixing and improving application performance.<br />_ Continuously discover, evaluate, and implement new technologies to maximize development efficiency.",
-            "stack": "Angular, Java EE, JavaScript, CSS, HTML",
-            "img": "welcome-photo.jpg"
+            "position": "Undergraduate Demonstrator and Student Ambassador",
+            "place": "Aberystwyth University, Aberystwyth, United Kingdom",
+            "time": "Sep 2018 - Jun 2019",
+            "description": "I help with the practise sessions for 1st-year students. I'm responsible for signing off and grade what people have done. So this job demands good communication skills and knowledge from modules from 1st year. As a student ambassador, I work during events such as Open Days / Visiting Days / Information Fairs and Events away from the Campus. Within these events, my role is a range from meeting and greeting visitors, helping with a car parking, providing Campus Tours and being a friendly face around campus.",
+            "stack": "",
+            "img": "aber.jpg"
         }
     ]
 }

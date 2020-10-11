@@ -41,6 +41,17 @@ body {
     margin: 0;
 }
 
+.experienceRecord hr {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.experienceRecord:last-of-type hr {
+    display: none;
+}
+
 .image-text, .large-text {
     display: block;
     float: left;
@@ -62,6 +73,10 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+    body {
+        font-size: 4vw;
+    }
+
     .welcomeText {
         font-size: 10vw;
     } 

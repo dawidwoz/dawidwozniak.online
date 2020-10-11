@@ -3,7 +3,9 @@ app.component('experience-display', {
         /*html*/
         `
           <h1 class="sectionTitle">{{ this.language["experience-title"] }}</h1>
-          <div v-for="record in this.language['experience']" key="record.id">
+          <br />
+          <br />
+          <div v-for="record in this.language['experience']" key="record.id" class="experienceRecord">
           <div class="image-text">
             <img :src="styles(record.img)" />
           </div>
@@ -14,6 +16,7 @@ app.component('experience-display', {
           <p :id="createId(record.id)"></p>
           {{ prepareDescription(record.description, record.id) }}
           </div>
+          <hr />
           </div>
     `,
     props: ['language'],
