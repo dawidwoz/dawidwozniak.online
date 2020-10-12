@@ -79,6 +79,10 @@ body {
     text-align: justify;
 }
 
+#info-description {
+    line-height: 1.6;
+}
+
 .ability {
     background-color: #eee;
 }
@@ -92,6 +96,21 @@ body {
     display: block;
     float: left;
     margin-bottom: 2%;
+}
+
+.skill, .skillLevel, .skillDescription {
+    width: 48%;
+    float: left;
+    font-size: 1.5vw;
+}
+
+.skill {
+    text-align: right;
+    margin-right: 1.5%;
+}
+
+.skillLevel {
+    text-align: left;
 }
 
 .skillDescription {
@@ -124,5 +143,20 @@ body {
         margin-bottom: 5%;
     }
 
+    .abilityRecord:first-of-type .subSectionTitle {
+        display: none;
+    }
+
+    .subSectionTitle {
+        visibility: hidden;
+    }
+
+    .skill, .skillLevel, .skillDescription {
+        font-size: 4vw;
+    }
+
+    #info-description {
+        line-height: normal;
+    }
 }
 

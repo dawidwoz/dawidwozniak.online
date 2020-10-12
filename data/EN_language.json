@@ -1,5 +1,5 @@
 {
-    "title": "Dawid Woźniak - Junior Front End Developer - Interactive CV",
+    "title": "Dawid Woźniak - Interactive CV",
     "welcome-first-line": "Hey, I'm ",
     "welcome-name": "Dawid Woźniak",
     "experience-title": "My experience",
@@ -127,5 +127,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "info-title": "About me",
+    "info-description": "My name is Dawid Woźniak. I'm a student at Aberystwyth University - <b>currently looking for a&nbsp; job during my last year at the university</b>. I&nbsp;have commercial experience as a junior front-end developer but I'm not afraid to challenge myself in a&nbsp;different field. I have good organisation skills, knowledge of IT and curiosity of the world. I love learning new languages - currently learning French and watching football."
 }
