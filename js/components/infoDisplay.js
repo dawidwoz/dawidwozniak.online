@@ -8,15 +8,10 @@ app.component('info-display', {
             <img src="img/info-photo.jpg" />
           </div>
           <div class="large-text" id="info-description"></div>
-          {{ prepareDescription(this.language["info-description"]) }}
+          {{ convertStringToHTML("#info-description",this.language["info-description"]) }}
     `,
     props: ['language'],
     methods: {
-        prepareDescription(description) {
-            $(document).ready(function(){ //Need to check if the element is there
-             var el = $("#info-description");
-             el.html(description);
-            });
-        }
+        convertStringToHTML
     }
 })

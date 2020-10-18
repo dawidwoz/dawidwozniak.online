@@ -13,7 +13,7 @@ app.component('experience-display', {
           <h5>{{ record.place }}</h5>
           <h6>{{ record.time }}</h6>
           <p :id="createId(record.id)"></p>
-          {{ prepareDescription(record.description, record.id) }}
+          {{ convertStringToHTML("#" + createId(record.id), record.description) }}
           </div>
           <hr />
           </div>
@@ -26,12 +26,6 @@ app.component('experience-display', {
         createId(id) {
             return "description" + id;
         },
-        prepareDescription(description, id) {
-            id = this.createId(id);
-            $(document).ready(function(){ //Need to check if the element is there
-             var el = $("#" + id);
-             el.html(description);
-            });
-        }
+        convertStringToHTML
     }
 })
