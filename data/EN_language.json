@@ -130,6 +130,10 @@
     ],
     "info-title": "About me",
     "info-description": "My name is Dawid Woźniak. I'm a student at Aberystwyth University - <b>currently looking for a&nbsp; job during my last year at the university</b>. I&nbsp;have commercial experience as a junior front-end developer but I'm not afraid to challenge myself in a&nbsp;different field. I have good organisation skills, knowledge of IT and curiosity of the world. I love learning new languages - currently learning French and watching football.",
+    "contact-title": "Contact me",
+    "linkedin-url": "https://www.linkedin.com/in/wozniakdawidd/",
+    "git-url": "https://github.com/dawidwoz",
+    "email": "mailto:dawidwozniak0805@gmail.com",
     "copyright": "Copyright",
     "author": "Dawid Woźniak",
     "footer-note": "This website is 100% my own project, the code can be found on GitHub <a href='https://github.com/dawidwoz/dawidwozniak.online'>here</a>"

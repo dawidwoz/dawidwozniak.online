@@ -9,6 +9,9 @@ app.component('info-display', {
           </div>
           <div class="large-text" id="info-description"></div>
           {{ convertStringToHTML("#info-description",this.language["info-description"]) }}
+          <br />
+          <br />
+          <contact-display :language="language"></contact-display>
     `,
     props: ['language'],
     methods: {
