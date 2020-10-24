@@ -13,6 +13,10 @@ body {
   min-height: 100vh;
 }
 
+.mini-section {
+    min-height: 50vh !important;
+}
+
 .section {
     text-align: center;
     width: 100%;
@@ -55,7 +59,7 @@ body {
     margin-bottom: 2%;
 }
 
-.experienceRecord:last-of-type hr {
+.experienceRecord:last-of-type hr, .educationRecord:last-of-type hr {
     display: none;
 }
 
