@@ -121,7 +121,7 @@ body {
     color: #A9A9A9;
 }
 
-#footer {
+#footer, #cookieInfo {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -129,6 +129,25 @@ body {
     background-color:  #434242;
     color: white;
     font-size: 1vw;
+}
+
+#cookieInfo {
+    position: fixed;
+}
+
+#cookieInfo p {
+    text-align: center;
+}
+
+#cookieInfo b {
+    position: absolute;
+    bottom: 0.5%;
+    right: 0.5%;
+    cursor: pointer;
+    background-color: #A9A9A9;
+    border: 1px solid #A9A9A9;
+    border-radius: 5%;
+    padding: 0.5%;
 }
 
 #footer a {
@@ -196,7 +215,7 @@ body {
         visibility: hidden;
     }
 
-    .skill, .skillLevel, .skillDescription {
+    .skill, .skillLevel, .skillDescription, #cookieInfo {
         font-size: 4vw;
     }
 
@@ -211,6 +230,10 @@ body {
 
     #copyright {
         font-size: 1.6vw;
+    }
+
+    #cookieInfo p {
+        width: 90%;
     }
 }
 
