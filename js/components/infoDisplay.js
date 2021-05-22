@@ -1,7 +1,7 @@
-app.component('info-display', {
-    template:
-        /*html*/
-        `
+app.component("info-display", {
+  template:
+    /*html*/
+    `
           <h1 class="sectionTitle">{{ this.language["info-title"] }}</h1>
           <br />
           <div class="image-text">
@@ -13,8 +13,8 @@ app.component('info-display', {
           <br />
           <contact-display :language="language"></contact-display>
     `,
-    props: ['language'],
-    methods: {
-        convertStringToHTML
-    }
-})
+  props: ["language"],
+  methods: {
+    convertStringToHTML,
+  },
+});

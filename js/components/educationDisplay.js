@@ -1,7 +1,7 @@
-app.component('education-display', {
-    template:
-        /*html*/
-        `
+app.component("education-display", {
+  template:
+    /*html*/
+    `
           <h1 class="sectionTitle">{{ this.language["education-title"] }}</h1>
           <br />
           <div v-for="record in this.language['education']" key="record.id" class="educationRecord">
@@ -19,10 +19,10 @@ app.component('education-display', {
           <hr />
           </div>
     `,
-    props: ['language'],
-    methods: {
-        styles(image) {
-            return "img/" + image;
-        }
-    }
-})
+  props: ["language"],
+  methods: {
+    styles(image) {
+      return "img/" + image;
+    },
+  },
+});

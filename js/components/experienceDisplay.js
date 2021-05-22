@@ -1,7 +1,7 @@
-app.component('experience-display', {
-    template:
-        /*html*/
-        `
+app.component("experience-display", {
+  template:
+    /*html*/
+    `
           <h1 class="sectionTitle">{{ this.language["experience-title"] }}</h1>
           <br />
           <div v-for="record in this.language['experience']" key="record.id" class="experienceRecord">
@@ -18,14 +18,14 @@ app.component('experience-display', {
           <hr />
           </div>
     `,
-    props: ['language'],
-    methods: {
-        styles(image) {
-            return "img/" + image;
-        },
-        createId(id) {
-            return "description" + id;
-        },
-        convertStringToHTML
-    }
-})
+  props: ["language"],
+  methods: {
+    styles(image) {
+      return "img/" + image;
+    },
+    createId(id) {
+      return "description" + id;
+    },
+    convertStringToHTML,
+  },
+});

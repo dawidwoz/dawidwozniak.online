@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Everything about Dawid Woźniak what you need to know">
-  <meta name=”robots” content="index, follow">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap&subset=latin,latin-ext" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap&subset=latin,latin-ext" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style/main.css">
-  <link rel="icon" href="./img/icon.ico">
-  <meta property="og:image" content="./img/I-fb.png" />
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <!-- Change it when done
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Everything about Dawid Woźniak what you need to know"
+    />
+    <meta name="”robots”" content="index, follow" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap&subset=latin,latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap&subset=latin,latin-ext"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="icon" href="./img/icon.ico" />
+    <meta property="og:image" content="./img/I-fb.png" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"
+    ></script>
+    <!-- Change it when done
     <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0"></script>
   -->
-  <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
-  <title>Dawid Woźniak - Interactive CV</title>
-</head>
+    <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
+    <title>Dawid Woźniak - Interactive CV</title>
+  </head>
 
-<body>
-  <div id="app">
-    <div :style="styles(config['welcome-photo'])" class="section">
-      <welcome-display :language="language"></welcome-display>
+  <body>
+    <div id="app">
+      <div :style="styles(config['welcome-photo'])" class="section">
+        <welcome-display :language="language"></welcome-display>
+      </div>
+      <div class="section">
+        <experience-display :language="language"></experience-display>
+      </div>
+      <div class="section">
+        <ability-display :language="language"></ability-display>
+      </div>
+      <div class="section mini-section">
+        <education-display :language="language"></education-display>
+      </div>
+      <div class="section">
+        <info-display :language="language"></info-display>
+      </div>
+      <cookie-display :language="language"></cookie-display>
+      <footer-display :language="language"></footer-display>
     </div>
-    <div class="section">
-      <experience-display :language="language"></experience-display>
-    </div>
-    <div class="section">
-      <ability-display :language="language"></ability-display>
-    </div>
-    <div class="section mini-section">
-      <education-display :language="language"></education-display>
-    </div>
-    <div class="section">
-      <info-display :language="language"></info-display>
-    </div>
-    <cookie-display :language="language"></cookie-display>
-    <footer-display :language="language"></footer-display>
-  </div>
 
-  <script src="js/common.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/components/welcomeDisplay.js"></script>
-  <script src="js/components/experienceDisplay.js"></script>
-  <script src="js/components/educationDisplay.js"></script>
-  <script src="js/components/abilityDisplay.js"></script>
-  <script src="js/components/infoDisplay.js"></script>
-  <script src="js/components/contactDisplay.js"></script>
-  <script src="js/components/cookieInfo.js"></script>
-  <script src="js/components/footerDisplay.js"></script>
-  <script type="text/javascript">
-    app.mount('#app');
-  </script>
-</body>
-
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/components/welcomeDisplay.js"></script>
+    <script src="js/components/experienceDisplay.js"></script>
+    <script src="js/components/educationDisplay.js"></script>
+    <script src="js/components/abilityDisplay.js"></script>
+    <script src="js/components/infoDisplay.js"></script>
+    <script src="js/components/contactDisplay.js"></script>
+    <script src="js/components/cookieInfo.js"></script>
+    <script src="js/components/footerDisplay.js"></script>
+    <script type="text/javascript">
+      app.mount("#app");
+    </script>
+  </body>
 </html>

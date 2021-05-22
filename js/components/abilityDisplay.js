@@ -1,7 +1,7 @@
-app.component('ability-display', {
-    template:
-        /*html*/
-        `
+app.component("ability-display", {
+  template:
+    /*html*/
+    `
           <h1 class="sectionTitle">{{ this.language["ability-title"] }}</h1>
           <br />
           <div v-for="ability in this.language['ability']" key="ability.id" class="abilityRecord">
@@ -24,5 +24,5 @@ app.component('ability-display', {
           </div>
           </div>
     `,
-    props: ['language']
-})
+  props: ["language"],
+});

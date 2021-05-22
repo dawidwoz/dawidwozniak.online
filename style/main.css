@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
-} 
+  margin: 0;
+  padding: 0;
+}
 body {
-    min-height: 100vh;
-    font-size: 2vw;
-    font-family: 'Cabin', sans-serif;
+  min-height: 100vh;
+  font-size: 2vw;
+  font-family: "Cabin", sans-serif;
 }
 
 #app {
@@ -14,226 +14,236 @@ body {
 }
 
 .mini-section {
-    min-height: 50vh !important;
+  min-height: 50vh !important;
 }
 
 .section {
-    text-align: center;
-    width: 100%;
-    min-height: 100vh;
-    left: 0;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;  /* Avoid overlapping when heigh > 100vw */
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  left: 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* Avoid overlapping when heigh > 100vw */
 }
 
 .sectionTitle {
-    font-size: 10vw;
-    font-family: 'Amatic SC', cursive;
+  font-size: 10vw;
+  font-family: "Amatic SC", cursive;
 }
 
 .subSectionTitle {
-    font-size: 4vw;
-    font-family: 'Amatic SC', cursive;
-    margin-bottom: 1%;
+  font-size: 4vw;
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 1%;
 }
 
 .welcomeText {
-    color: #FFF;
-    font-family: 'Amatic SC', cursive;
-    font-size: 6vw;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+  font-size: 6vw;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
-.experienceRecord hr, .educationRecord hr {
-    display: block;
-    margin: auto;
-    width: 50%;
-    margin-bottom: 2%;
+.experienceRecord hr,
+.educationRecord hr {
+  display: block;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 2%;
 }
 
-.experienceRecord:last-of-type hr, .educationRecord:last-of-type hr {
-    display: none;
+.experienceRecord:last-of-type hr,
+.educationRecord:last-of-type hr {
+  display: none;
 }
 
-.image-text, .large-text {
-    display: block;
-    float: left;
-    width: 45%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 2%;
+.image-text,
+.large-text {
+  display: block;
+  float: left;
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
 }
 
 .image-text img {
-    vertical-align: middle;
-    border-radius: 5%;
-    max-width: 100%;
-    max-height: 100%;
-} 
+  vertical-align: middle;
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .large-text {
-    text-align: justify;
+  text-align: justify;
 }
 
 #info-description {
-    line-height: 1.6;
+  line-height: 1.6;
 }
 
-.section:nth-child(2n+1) {
-    background-color: #eee;
+.section:nth-child(2n + 1) {
+  background-color: #eee;
 }
 
 .abilityRecord {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .skillsView {
-    width: 33%;
-    display: block;
-    float: left;
-    margin-bottom: 2%;
+  width: 33%;
+  display: block;
+  float: left;
+  margin-bottom: 2%;
 }
 
-.skill, .skillLevel, .skillDescription {
-    width: 48%;
-    float: left;
-    font-size: 1.5vw;
+.skill,
+.skillLevel,
+.skillDescription {
+  width: 48%;
+  float: left;
+  font-size: 1.5vw;
 }
 
 .skill {
-    text-align: right;
-    margin-right: 1.5%;
+  text-align: right;
+  margin-right: 1.5%;
 }
 
 .skillLevel {
-    text-align: left;
+  text-align: left;
 }
 
 .skillDescription {
-    color: #A9A9A9;
+  color: #a9a9a9;
 }
 
-#footer, #cookieInfo {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 1.5vw;
-    background-color:  #434242;
-    color: white;
-    font-size: 1vw;
+#footer,
+#cookieInfo {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 1.5vw;
+  background-color: #434242;
+  color: white;
+  font-size: 1vw;
 }
 
 #cookieInfo {
-    position: fixed;
+  position: fixed;
 }
 
 #cookieInfo p {
-    text-align: center;
+  text-align: center;
 }
 
 #cookieInfo b {
-    position: absolute;
-    bottom: 0.5%;
-    right: 0.5%;
-    cursor: pointer;
-    background-color: #A9A9A9;
-    border: 1px solid #A9A9A9;
-    border-radius: 5%;
-    padding: 0.5%;
+  position: absolute;
+  bottom: 0.5%;
+  right: 0.5%;
+  cursor: pointer;
+  background-color: #a9a9a9;
+  border: 1px solid #a9a9a9;
+  border-radius: 5%;
+  padding: 0.5%;
 }
 
 #footer a {
-    color:  #A9A9A9;
+  color: #a9a9a9;
 }
 
-#copyright, #footerNote {
-    display: block;
-    float: left;
-    padding-left: 1%;
-    padding-right: 1%;
+#copyright,
+#footerNote {
+  display: block;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 #copyright {
-    width: 24%;
-    text-align: left;
+  width: 24%;
+  text-align: left;
 }
 
 #footerNote {
-    width: 72%;
-    text-align: right;
+  width: 72%;
+  text-align: right;
 }
 
 #contact {
-    min-height: auto;
-    float: left;
-    width: 100%;
+  min-height: auto;
+  float: left;
+  width: 100%;
 }
 
 #contact img {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 @media only screen and (max-width: 1000px) {
-    body {
-        font-size: 4vw;
-    }
+  body {
+    font-size: 4vw;
+  }
 
-    .welcomeText {
-        font-size: 10vw;
-    } 
+  .welcomeText {
+    font-size: 10vw;
+  }
 
-    .sectionTitle {
-        font-size: 16vw;
-    }
+  .sectionTitle {
+    font-size: 16vw;
+  }
 
-    .subSectionTitle {
-        font-size: 6vw;
-    }
+  .subSectionTitle {
+    font-size: 6vw;
+  }
 
-    .image-text, .large-text {
-        width: 94%;
-    }
+  .image-text,
+  .large-text {
+    width: 94%;
+  }
 
-    .skillsView {
-        width: 98%;
-        margin-bottom: 5%;
-    }
+  .skillsView {
+    width: 98%;
+    margin-bottom: 5%;
+  }
 
-    .abilityRecord:first-of-type .subSectionTitle {
-        display: none;
-    }
+  .abilityRecord:first-of-type .subSectionTitle {
+    display: none;
+  }
 
-    .subSectionTitle {
-        visibility: hidden;
-    }
+  .subSectionTitle {
+    visibility: hidden;
+  }
 
-    .skill, .skillLevel, .skillDescription, #cookieInfo {
-        font-size: 4vw;
-    }
+  .skill,
+  .skillLevel,
+  .skillDescription,
+  #cookieInfo {
+    font-size: 4vw;
+  }
 
-    #info-description {
-        line-height: normal;
-    }
+  #info-description {
+    line-height: normal;
+  }
 
-    #footer {
-        min-height: 3.5vw;
-        font-size: 2vw;
-    }
+  #footer {
+    min-height: 3.5vw;
+    font-size: 2vw;
+  }
 
-    #copyright {
-        font-size: 1.6vw;
-    }
+  #copyright {
+    font-size: 1.6vw;
+  }
 
-    #cookieInfo p {
-        width: 90%;
-    }
+  #cookieInfo p {
+    width: 90%;
+  }
 }
-
