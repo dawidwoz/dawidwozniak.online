@@ -6,6 +6,24 @@
     "experience": [
         {
             "id": 1,
+            "position": "Remote Front-end developer",
+            "place": "MPC, Katowice, Poland",
+            "time": "Nov 2020 - now",
+            "description": "Working as a front-end developer, I'm working for MPC's biggest client, creating solutions that will marvel even the most demanding users of the platform that we’ve been building for our client.<br />The main responsibilities are:<br />_ Creating new and modern implementation using Angular with RxJS and NgRx,<br />_ Participating in the dynamic agile team and agile environment,<br />_ Work with outside data sources and API’s (mainly GraphQL),<br />_ Work on bug fixing and improving application performance,",
+            "stack": "Angular, NestJS, NodeJS, Java EE, JavaScript, CSS, HTML",
+            "img": "mpc.png"
+        },
+        {
+            "id": 2,
+            "position": "Front-End Developer (part-time)",
+            "place": "Aberystwyth University, Aberystwyth, United Kingdom",
+            "time": "Dec 2020 - Jun 2021",
+            "description": "The project aims for developing an interactive web site to advertise and provide more information about a mobile app that is currently built by the Aberystwyth Stroke Research Group. The goal of the app is to deliver safe and clinically validated training programs for stroke patients who suffer from gait and balance impairments. Daily duties are: <br/>_ Creating UI mockups for a website,<br />_ Creating a full-responsive website from the scratch using React based on prepared mock-ups,<br />_ Connecting a website to existing backend,<br />_ Creating animations to visualise the patient's results.",
+            "stack": "React JS, Figma, JavaScript, CSS, HTML",
+            "img": "aber.jpg"
+        },
+        {
+            "id": 3,
             "position": "Student Software Developer",
             "place": "Amadeus, Franfurt am Main, Germany",
             "time": "Jun 2019 - Aug 2020",
@@ -14,7 +32,7 @@
             "img": "amadeus.jpg"
         },
         {
-            "id": 2,
+            "id": 4,
             "position": "Undergraduate Demonstrator and Student Ambassador",
             "place": "Aberystwyth University, Aberystwyth, United Kingdom",
             "time": "Sep 2018 - Jun 2019",
