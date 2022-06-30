@@ -40,6 +40,11 @@ body {
   margin-bottom: 1%;
 }
 
+.welcomeInfo {
+  font-size: 1vw;
+  color: #fff;
+}
+
 .welcomeText {
   color: #fff;
   font-family: "Amatic SC", cursive;
