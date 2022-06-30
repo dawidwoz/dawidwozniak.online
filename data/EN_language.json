@@ -2,19 +2,38 @@
     "title": "Dawid Woźniak - Interactive CV",
     "welcome-first-line": "Hey, I'm ",
     "welcome-name": "Dawid Woźniak",
+    "welcome-info": "The new website is coming...",
     "experience-title": "My experience",
     "experience": [
         {
+            "id": 0,
+            "position": "Software Engineer Intern",
+            "place": "Microsoft, Kongens Lyngby, Denmark",
+            "time": "July 2022 - now",
+            "description": "As Software Enginner, I am dedicated to design, development and testing of next-generation software which will empower every person and organization on the planet to achieve more. My main focus product is Microsoft Office.",
+            "stack": "",
+            "img": ""
+        },
+        {
             "id": 1,
+            "position": "Full Stack Developer",
+            "place": "Monstarlab, Copenhagen, Denmark",
+            "time": "Dec 2021 - July 2022",
+            "description": "Working as a full-stack developer (Angular & NodeJS & Django) on a brand new machine learning project.<br /> The main responsibilities are:<br />_ Making architecture decisions from the very beginning of the project with AWS and Firebase cloud solutions,<br />_ Creating new and modern implementation using Angular with RxJS and NgRx,<br />_ Implementing backend solution using Django Python and NodeJS, including machine learning mechanisms.",
+            "stack": "Angular, Django, NodeJS, JavaScript, CSS, HTML",
+            "img": ""
+        },
+        {
+            "id": 2,
             "position": "Remote Front-end developer",
             "place": "MPC, Katowice, Poland",
-            "time": "Nov 2020 - now",
+            "time": "Nov 2020 - Jan 2022",
             "description": "Working as a front-end developer, I'm working for MPC's biggest client, creating solutions that will marvel even the most demanding users of the platform that we’ve been building for our client.<br />The main responsibilities are:<br />_ Creating new and modern implementation using Angular with RxJS and NgRx,<br />_ Participating in the dynamic agile team and agile environment,<br />_ Work with outside data sources and API’s (mainly GraphQL),<br />_ Work on bug fixing and improving application performance,",
             "stack": "Angular, NestJS, NodeJS, Java EE, JavaScript, CSS, HTML",
             "img": "mpc.png"
         },
         {
-            "id": 2,
+            "id": 3,
             "position": "Front-End Developer (part-time)",
             "place": "Aberystwyth University, Aberystwyth, United Kingdom",
             "time": "Dec 2020 - Jun 2021",
@@ -23,7 +42,7 @@
             "img": "aber.jpg"
         },
         {
-            "id": 3,
+            "id": 4,
             "position": "Student Software Developer",
             "place": "Amadeus, Franfurt am Main, Germany",
             "time": "Jun 2019 - Aug 2020",
@@ -32,7 +51,7 @@
             "img": "amadeus.jpg"
         },
         {
-            "id": 4,
+            "id": 5,
             "position": "Undergraduate Demonstrator and Student Ambassador",
             "place": "Aberystwyth University, Aberystwyth, United Kingdom",
             "time": "Sep 2018 - Jun 2019",
